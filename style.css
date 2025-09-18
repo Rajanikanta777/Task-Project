@@ -1,0 +1,120 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1818;
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #a163bc !important;
+  }
+  
+  .navbar-brand {
+    color: #00ffcc !important;
+    font-weight: 700;
+  }
+  
+  .nav-link {
+    color: #bbb !important;
+    margin-right: 12px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #00ffcc !important;
+  }
+  
+  /* Hero Section */
+  section.bg-light {
+    background: linear-gradient(135deg, #1f1f1f, #121212);
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    
+  }
+  
+  section.bg-light h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00ffcc;
+    transform: translateY(-6px);
+  }
+  
+  section.bg-light p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  
+  /* Cards */
+  .card {
+    background: #1e1e1e;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 20px rgba(0,255,204,0.3);
+  }
+  
+  .card-title {
+    color: #00ffcc;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background: #00ffcc;
+    color: #121212;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background: #00ccaa;
+    color: #fff;
+  }
+  
+  /* Contact Form */
+  form input, form textarea {
+    background: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 12px;
+    color: #fff;
+  }
+  
+  form input:focus, form textarea:focus {
+    border-color: #00ffcc;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0,255,204,0.4);
+  }
+  
+  /* Footer */
+  footer {
+    background: #1f1f1f;
+    color: #888;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #00ffcc;
+    text-decoration: none;
+  }
